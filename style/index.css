@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    background-color: var(--primeira);
+}
+
+:root{
+    --primeira: #111111;
+    --segunda: #2d2d2d;
+    --terceira: #494949;
+    --quarta: #646464;
+    --quinta: #808080;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--segunda);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.bunner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bunner img{
+    width: 50%;
+
+}
