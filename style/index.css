@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body{
@@ -8,7 +9,7 @@ html, body{
 }
 
 body{
-    background-color: var(--primeira);
+    background-color: white;
 }
 
 :root{
@@ -25,23 +26,59 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--segunda);
+    background-color: var(--primeira);
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav h3, a{
+    color: white;
+    text-decoration: none;
 }
 
 main{
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bunner{
     width: 100%;
     height: 600px;
     position: relative;
-
 }
 
 .bunner img{
     width: 100%;
     height: 600px;
     object-fit: cover;
+}
+
+main .lin{
+    width: 90%;
+    height: 3px;
+    background-color: var(--segunda);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+    .bunner, .bunner img{
+        height: 300px;
+    }
 }
