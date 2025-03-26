@@ -48,12 +48,35 @@ header{
 header img{
     width: 60px;
     position: absolute;
+    /* animation-name: flutuate;
+    animation-duration: 1s; */
+    animation: flutuate 3s infinite;
 }
 
 .header-right{
     position: absolute;
     right: 0px;
-    margin-right: 10px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-right a{
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes flutuate{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 main{
@@ -113,6 +136,13 @@ main{
     align-items: center;
     justify-content: space-around;
     gap: 100px;
+}
+
+.content-qualits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
 .qualits .content{
