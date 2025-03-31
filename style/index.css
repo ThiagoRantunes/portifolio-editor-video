@@ -227,14 +227,31 @@ main{
 }
 
 .me-content .me-text .me-title h2{
+    margin-bottom: 20px;
+}
+
+.title-name h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
     color: white;
     padding: 3px;
-    margin-bottom: 20px;
 }
 
+/* TRAGETORIA */
 
+.tragetoria{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tragetoria .tragetoria-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* RESPONSIVIDADE */
 
