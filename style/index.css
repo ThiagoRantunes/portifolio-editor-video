@@ -240,6 +240,7 @@ main{
 
 @media(max-width: 710px){
 
+
     .certificacoes{
         display: grid;
     }
