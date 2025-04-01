@@ -258,8 +258,52 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10vw;
+    gap: 30px;
     margin-top: 100px;
+    flex-direction: column;
+}
+
+.tragetoria .content .card{
+    width: 400px;
+    height: 70px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 1px black;
+    transition: var(--timeone);
+}
+
+.tragetoria .content .card:hover{
+    background-color: black;
+    box-shadow: none;
+    transition: var(--timeone);
+}
+
+.tragetoria .content .card .card-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: var(--timeone);
+}
+
+.tragetoria .content .card:hover .card-title{
+    color: white;
+    transition: var(--timeone);
+}
+
+.tragetoria .content .card .card-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tragetoria .content .card .card-footer img{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 /* RESPONSIVIDADE */
