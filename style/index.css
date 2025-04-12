@@ -258,8 +258,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin-top: 100px;
+    gap: 10px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
@@ -285,7 +285,7 @@ main{
   }
 
   .card-footer img {
-    width: 70px;
+    width: 20%;
     margin-top: 10px;
   }
 
@@ -301,6 +301,27 @@ main{
     max-height: 500px; /* valor suficiente para o conteúdo interno */
     opacity: 1;
   }
+
+/* FORMAÇÃO */
+
+.formacao-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.formacao-title h3{
+    text-decoration: underline black;
+}
+
+.formacao-title img{
+    width: 40px;
+}
+
 
 /* RESPONSIVIDADE */
 
