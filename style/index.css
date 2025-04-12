@@ -310,7 +310,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     gap: 10px;
 }
 
@@ -322,8 +322,43 @@ main{
     width: 40px;
 }
 
+.formacao-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.formacao-content .cert{
+    width: 300px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formacao-content .cert img{
+    width: 50%;
+    margin: auto;
+}
+
 
 /* RESPONSIVIDADE */
+
+@media (max-width: 920px){
+
+    .formacao-content{
+        display: grid;
+        gap: 20px;
+    }
+
+    .formacao-content .cert{
+        border: solid 1px #ccc;
+        border-radius: 12px;
+    }
+}
 
 @media(max-width: 710px){
 
