@@ -344,6 +344,21 @@ main{
     margin: auto;
 }
 
+/* PROJETOS */
+
+.projetos{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos .projetos-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* RESPONSIVIDADE */
 
