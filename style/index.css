@@ -367,40 +367,37 @@ main{
     grid-template-areas: 
     "video video";
     margin-top: 50px;
-    gap: 20px;
 }
 
 .projetos .proj-content .card-video{
-    width: 45vw;
-    height: 40vw;
-    border: 1px solid #ccc;
-    border-radius: 12px;
+    width: 35vw;
+    min-width: 300px;
+    height: 30vw;
     display: grid;
     align-items: start;
     justify-content: center;
-}
-
-.projetos .proj-content .card-video .img-video{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin-top: 10px;
-}
-
-.projetos .proj-content .card-video .img-video img{
-    margin-left: 20px;
-}
-
-.projetos .proj-content .card-video img{
-    width: 30px;
-}
-
-.projetos .proj-content .card-video video{
-    width: 95%;
     margin: auto;
 }
 
+.projetos .proj-content .card-video video{
+    width: 90%;
+    margin: auto;
+    border: solid 5px red;
+}
+
+.projetos .proj-content .card-video .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos .proj-content .card-video .text h4{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+}
 
 /* RESPONSIVIDADE */
 
@@ -416,15 +413,6 @@ main{
         border-radius: 12px;
     }
 
-    .projetos .proj-content .card-video{
-        width: 300px;
-        height: 280px;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 @media(max-width: 710px){
