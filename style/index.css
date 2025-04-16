@@ -364,15 +364,15 @@ main{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-areas: 
-    "video video";
     margin-top: 50px;
+    gap: 10px;
 }
 
 .projetos .proj-content .card-video{
     width: 35vw;
     min-width: 300px;
     height: 30vw;
+    min-height: 300px;
     display: grid;
     align-items: start;
     justify-content: center;
@@ -382,7 +382,7 @@ main{
 .projetos .proj-content .card-video video{
     width: 90%;
     margin: auto;
-    border: solid 5px red;
+    border: solid 5px var(--terceira);
 }
 
 .projetos .proj-content .card-video .text{
@@ -390,6 +390,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .projetos .proj-content .card-video .text h4{
